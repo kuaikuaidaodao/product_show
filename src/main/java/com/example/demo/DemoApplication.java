@@ -34,7 +34,7 @@ public class DemoApplication extends SpringBootServletInitializer {
         protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
             return builder.sources(DemoApplication.class);
         }
-    @RequestMapping("/addPic.do")
+    @RequestMapping("/add.do")
     @ResponseBody
     public String addBanner(HttpServletRequest request){
         String name=null;
