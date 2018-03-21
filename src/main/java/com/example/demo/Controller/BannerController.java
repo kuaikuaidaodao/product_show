@@ -60,4 +60,7 @@ public class BannerController {
 		return bannerRepository.findOne(id);
 	}
 
+	public void upload() {
+		
+	}
 }
