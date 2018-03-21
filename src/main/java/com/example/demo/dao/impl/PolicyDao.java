@@ -1,14 +1,11 @@
 package com.example.demo.dao.impl;
 
-import com.example.demo.dao.ICityinfoDao;
 import com.example.demo.dao.IPolicyDao;
 import com.example.demo.entity.PolicyEntity;
-import com.example.demo.entity.userEntity;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-import javax.persistence.Query;
 import javax.persistence.TypedQuery;
 import java.util.List;
 

@@ -3,7 +3,6 @@ package com.example.demo.dao.impl;
 import com.example.demo.dao.ICityinfoDao;
 
 import com.example.demo.entity.cityinfoEntity;
-import com.example.demo.entity.userEntity;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
